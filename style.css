@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 45px;
+   justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.topnav{
+    margin: auto;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 13px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-size: 22px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transform: 0.6s ease;
+}
+ul li a:hover, 
+ul li a:active{
+    color: red;
+
+}
+
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero_section{
+    background-image: url(images/Dog1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 16px;
+
+}
+
+.lg_text{
+    font-size: 50px;
+}
+
+.black_box{
+    background-color: #000;
+    padding: 20px;
+}
+
+.black_box h2{
+    font-weight: 300;
+    font-size: 50
+    px;
+    color: white;
+    text-align: center;
+    
+}
+
+.black_box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.work .card p{
+    text-align: center;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2) ;
+}
+.work p {
+    color: #fff;
+}
+.work h3{
+    color: black;
+}
+
+
+
